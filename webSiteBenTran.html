@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+
+<title>My Final Webpage</title>
+
+<style type="text/css">
+
+/*font imports*/
+@import url('https://fonts.googleapis.com/css?family=Cardo|Josefin+Sans|Josefin+Slab'
+);
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* color scheme */
+/*
+lightest grey - #e5e5e5
+red - #ea3057
+black - #191919
+medium grey: #212529;
+dark grey - #5b5553
+medium grey - #b1a7a5
+light grey - #f1f1f1!important
+*/
+
+body{
+background-color:#white;
+}
+
+header{
+background-color:#212529;
+padding:2%;
+}
+
+#wrapper{
+width:80.56640625%;/*target -825/context - 1024*/
+margin: 0 auto;
+background-color:white;
+}
+
+nav{
+margin: 0 auto;
+background-color:#212529;
+padding:.5% 0;
+overflow:hidden;
+}
+
+nav a{
+color: #ea3057;
+padding: 12px 18px;
+font-size: 20px;
+text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #ddd;
+}
+
+#feature{
+width:81.32575757575758%; /*706/825*/
+margin: 3% auto 4% auto;
+background-color:#212529;
+overflow:hidden;
+padding:1.5% 2.25% 3.5% 2.25%;
+color:;
+}
+
+.feature-img{
+float:left;
+width: 40%;
+}
+
+.feature-text{
+float:left;
+width: 58%;
+margin-left: 2%;
+font-family: 'Josefin Slab', serif;
+font-size: 1.25em;
+font-weight: bold;
+line-height:125%;
+letter-spacing: 0.05em;
+color:white;
+}
+
+#main-content{
+width:59.39393939393939%; /*525/835*/
+float:left;
+margin:2%;
+}
+
+.main-figure{
+width:32.50478011472275%;/*170/523*/
+margin-right:9.56022944550669%;/*50/523*/
+float: right;
+}
+
+#sidebar{
+width:30.60606060606061%;/*302/825*/
+float:left;
+margin: 2%;
+}
+
+figure img{
+max-width: 100%;
+}
+
+figure{
+background-color:#435353;
+}
+
+figure p{
+color:white;
+}
+
+.side-figure{
+margin:0 auto;
+padding-bottom 2% ;
+}
+
+.left-figure{
+width:50%;
+padding-bottom 2% ;
+}
+
+.left-figure img{
+width: 100%;
+}
+
+footer{
+clear:left;
+padding: 2%;
+background-color:#212529;
+}
+
+/*type styles*/
+
+/*
+font-family: 'Cardo', serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Josefin Slab', serif;
+*/
+
+body{
+font-family: 'Cardo', serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+font-family: 'Josefin Sans', sans-serif;
+color:#ea3057;
+letter-spacing: 0.05em;
+}
+
+article>p{
+line-height: 150%;
+}
+
+h1{
+font-size: 3em;
+font-weight: bold;
+text-align: center;
+}
+
+h2{
+font-size: 1.75em;
+font-weight: bold;
+}
+
+#feature h2{
+margin-bottom: 2%;
+}
+
+footer p{
+margin:0;
+color:#ea3057;
+}
+
+p{
+margin: 2.5% 0;
+}
+
+figcaption{
+font-family: 'Josefin Slab', serif;
+margin: 1%;
+}
+
+#sidebar figcaption{
+margin-bottom: 3%;
+}
+
+
+
+</style>
+
+</head>
+
+<body>
+<div id ="header">
+<header>
+<h1> My Favorite Video Games </h1>
+</header>
+
+<nav>
+<a href="page2.html">Action</a>
+<a href="page3.html">Strategy</a>
+<a href="page4.html">RPGs</a>
+<a href="page5.html">Contact</a>
+</nav>
+</div>
+<div id="wrapper">
+
+
+
+<div id="feature">
+
+<h2>A little bit about me</h2>
+
+<img src="https://duftwatterson.com/wp-content/uploads/2019/09/VideoGameBlog-Header-Compressed-1.gif" class="feature-img"/>
+
+<p class="feature-text">My name is Ben Tran, I've been playing video games since I was little on the original Playstation. Here are some of my favorite games that I've played over time and my personal thoughts on them.</p>
+</div>
+<div id="main-content">
+
+<article>
+
+<h2>Favorite Action</h2>
+<figure class="left-figure">
+
+<img src="https://compass-ssl.xbox.com/assets/49/b6/49b6313d-375e-49ba-b08b-3e7bf67d8928.jpg?n=Halo-Infinite_GLP-Page-Hero-1084_Poster-Image_1920x1080.jpg"/>
+
+<figcaption><p>Halo Series</p></figcaption>
+</figure>
+
+<p>A list of my favorite action games i've played so far.</p>
+<p>A brief description of the gameplay</p>
+<p>My own personal review and recommendations based on how I feel about the game.</p>
+</article>
+
+<article>
+<h2>Favorite Strategu</h2>
+<figure class="left-figure">
+
+<img src="https://wallpaperaccess.com/full/6424733.jpg" />
+
+<figcaption><p>Rimworld</p></figcaption>
+</figure>
+<p>A list of my favorite Strategy games i've played so far.
+<p>A brief description of the gameplay</p>
+<p>My own personal review and recommendations based on how I feel about the game.</p>
+</article>
+
+</div>
+
+<div id="sidebar">
+
+<article>
+
+<h2>Favorite RPGs</h2>
+
+<figure class="side-figure">
+
+<img src="https://www.nintendo.com//content/dam/noa/en_US/games/switch/t/the-elder-scrolls-v-skyrim-switch/the-elder-scrolls-v-skyrim-switch-hero.jpg" />
+
+<figcaption><p>Elder Scrolls Skyrim</p></figcaption>
+</figure>
+
+<p>A list of my favorite RPG games i've played so far.</p>
+<p>A brief description of the gameplay</p>
+<p>My own personal review and recommendations based on how I feel about the game.</p>
+
+</article>
+
+</div>
+
+
+</div>
+<footer>
+
+<p><small>Ben Tran | Webpage Programming</p>
+</footer>
+</body>
+</html>
+
